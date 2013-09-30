@@ -1,5 +1,9 @@
 LiveTwitterStreamSentimentAnalysis
 ==================================
+This is one of my minor project from the DataScience course.I have collected live tweets from Twitter Social Networking site and
+used the tweets for various findings.The project description is given below:
+
+
 Script twitterstream.py- Used to fetch live stream data from twitter
 > Create a twitter account if you do not already have one.
 > Go to https://dev.twitter.com/apps and log in with your twitter credentials.
