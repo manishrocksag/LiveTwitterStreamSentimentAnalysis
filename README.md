@@ -38,7 +38,7 @@ Findings:
 > Top ten hash tags(top_ten.py).
 
 **
-This project is very poorly documented due to lack of time but I promise as soon as I get time I will properly document it
+This project is  poorly documented due to lack of time but I promise as soon as I get time I will properly document it
 and include in it more findings.Sorry for the inconvenience.
 
 
