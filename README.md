@@ -1,5 +1,22 @@
 LiveTwitterStreamSentimentAnalysis
 ==================================
+This is one of my minor project from the DataScience course.I have collected live tweets from Twitter Social Networking site and
+used the tweets for various findings.The project description is given below:
+
+
+
+Twitter represents a fundamentally new instrument to make social measurements. Millions of people voluntarily express opinions across any topic imaginable --- this data source is incredibly valuable for both research and business.
+ 
+For example, researchers have shown that the "mood" of communication on twitter reflects biological rhythms and can even used to predict the stock market. A student here at UW used geocoded tweets to plot a map of locations where "thunder" was mentioned in the context of a storm system in Summer 2012.
+Researchers from Northeastern University and Harvard University studying the characteristics and dynamics of Twitter have an excellent resource for learning more about this area.
+ 
+In this project, I have
+ 
+●      access the twitter Application Programming Interface(API) using python.
+●      estimate the public's perception (the sentiment) of a particular term or phrase.
+●      analyze the relationship between location and mood based on a sample of twitter data.
+
+
 Script twitterstream.py- Used to fetch live stream data from twitter
 > Create a twitter account if you do not already have one.
 > Go to https://dev.twitter.com/apps and log in with your twitter credentials.
@@ -19,5 +36,9 @@ Findings:
 > Frequency Histogram of the live stream data(Turn frequency.py).
 > Happiest State based on sentiment scores of geo tagged tweets(Turn happiest_state.py).
 > Top ten hash tags(top_ten.py).
+
+**
+This project is  poorly documented due to lack of time but I promise as soon as I get time I will properly document it
+and include in it more findings.Sorry for the inconvenience.
 
 
