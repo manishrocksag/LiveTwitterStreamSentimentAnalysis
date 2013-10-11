@@ -1,10 +1,19 @@
+'''
+Takes the tweet file as input and counts the frequency of each tweets.
+
+'''
+
 import sys
 import json
 import difflib	
 import re
+
+
 def main():
+
     dic={} tweets_text=[] tweets_location=[] lis=[]
     sent_file = open(sys.argv[1])
+#parses the tweet file for english tweets only
     for line in sent_file:
 	try:
 		tweet=json.loads(line)
@@ -21,6 +30,7 @@ def main():
 		pass
     x=len(dic)
     i=0
+#puts the tweet term and its frequency in dict as key value pairs
     for keys in dic:
 	foo=keys.encode('utf-8')
 	if i==0:
@@ -30,6 +40,7 @@ def main():
 		foo=keys.encode('utf-8')
 		print foo,dic[foo]/x	
      	     for keys in dic:
+#prints the key and its frequency
 	sys.stdout.write('{0}\t{1}\n'.format(keys.encode('utf-8'),dic[keys]/x))	
 if __name__ == '__main__':
     main()

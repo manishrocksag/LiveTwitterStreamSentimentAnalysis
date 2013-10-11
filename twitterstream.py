@@ -1,3 +1,7 @@
+'''
+A python script for fetching live tweets using oauth2 open standard authentication
+'''
+
 import oauth2 as oauth
 import urllib2 as urllib
 access_token_key = "170961646-JZfaDt3UReqVYTxmHnhz8dAFvNmx6iCsyVxHMQXT"
